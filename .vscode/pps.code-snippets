@@ -1,0 +1,59 @@
+{
+	"Scan Single int number": {
+		"prefix": "soi",
+		"body": [
+			"scanf(\"%d\", &${1:a});"
+		],
+		"description": "Scan Single int number"
+	},	"Scan Single float number": {
+		"prefix": "soi",
+		"body": [
+			"scanf(\"%d\", &${1:a});"
+		],
+		"description": "Scan Single int number"
+	},
+	"Scan two int number": {
+		"prefix": "sti",
+		"body": [
+			"scanf(\"%d %d\", &${1:a},&${2:b});"
+		],
+		"description": "Scan two int number"
+	},
+	"Scan two float number": {
+		"prefix": "stf",
+		"body": [
+			"scanf(\"%f %f\", &${1:a},&${2:b});"
+		],
+		"description": "Scan two float number"
+	}
+	,
+	"Print Single int number": {
+		"prefix": "poi",
+		"body": [
+			"printf(\"%d\", ${1:a});"
+		],
+		"description": "Scan Single int number"
+	},	"Print Single float number": {
+		"prefix": "pof",
+		"body": [
+			"printf(\"%d\", ${1:a});"
+		],
+		"description": "Scan Single int number"
+	},
+	"Print two int number": {
+		"prefix": "pti",
+		"body": [
+			"printf(\"%d %d\", ${1:a},${2:b});"
+		],
+		"description": "Scan two int number"
+	},
+	"Print two float number": {
+		"prefix": "ptf",
+		"body": [
+			"printf(\"%f %f\", ${1:a},${2:b});"
+		],
+		"description": "Scan two float number"
+	}
+
+
+}
